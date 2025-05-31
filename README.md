@@ -16,7 +16,7 @@ This command-line Python tool scans open and closed ports on a specified IP addr
 ## Usage
 
 ```bash
-python3 portscanner.py <target_ip> [options]
+python3 portscan.py <target_ip> [options]
 ```
 
 ### Options
@@ -30,7 +30,7 @@ python3 portscanner.py <target_ip> [options]
 ### Example
 
 ```bash
-python3 portscanner.py 192.168.1.1 -m syn -o random -p known
+python3 portscan.py 192.168.1.1 -m syn -o random -p known
 ```
 
 ## Requirements
